@@ -1,0 +1,47 @@
+.profile {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.profile .profile-img {
+    width: 100px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px black;
+    transition: all 0.1s linear;
+}
+
+.profile .profile-img:hover {
+    transform: scale(1.05);
+}
+
+.profile h1 {
+    font-size: 23px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.profile p {
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.profile .contact a {
+    text-decoration: none;
+}
+
+.profile .contact a img {
+    width: 30px;
+    margin: 0 8px;
+    transition: all 0.1s linear;
+}
+
+.profile .contact a img:hover {
+    transform: scale(1.2);
+}

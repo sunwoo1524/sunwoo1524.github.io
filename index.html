@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>맹꽁이.site</title>
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/profile.css">
+    <link rel="stylesheet" href="./style/section.css">
+</head>
+<body style="margin:0">
+    <div class="main">
+        <div class="profile">
+            <img class="profile-img" src="./images/profile_image.jpg" alt="맹꽁이">
+            <h1>맹꽁이 (sunwoo1524)</h1>
+            <p>키보드와 IT를 좋아하는 학생입니다.<br>
+            취미로 개발하고 있습니다.</p>
+            
+            <div class="contact">
+                <a target="_blank" href="https://pointless.chat/@sunwoo1524">
+                    <img src="./images/mastodon_icon.svg" alt="Mastodon">
+                </a>
+                <a target="_blank" href="https://worldc.one/@sunwoo1524">
+                    <img src="./images/firefish_icon.svg" alt="Firefish">
+                </a>
+                <a target="_blank" href="https://www.youtube.com/channel/UCx5ta6NKqx52kOFRfVJGtlA">
+                    <img src="./images/youtube_icon.svg" alt="YouTube">
+                </a>
+                <a target="_blank" href="https://github.com/sunwoo1524">
+                    <img src="./images/github_icon.svg" alt="GitHub">
+                </a>
+            </div>
+        </div>
+
+        <div class="section">
+            <h1>Projects</h1>
+
+            <post-link
+                title="Krll"
+                description="FastAPI로 개발한 URL 단축 서비스"
+                link="https://www.krll.me"
+                thumbnail="./images/krll_thumbnail.png">
+            </post-link>
+
+            <post-link
+                title="매트릭스 맵 생성기"
+                description="매트릭스로 맵을 만들고 배열로 내보낼 수 있는 맵 제작 도구"
+                link="https://matrix-map-generator.vercel.app/"
+                thumbnail="./images/matrixmap_thumbnail.png">
+            </post-link>
+        </div>
+
+        <div class="section">
+            <h1>Services</h1>
+
+            <post-link
+                title="Worldc.one"
+                description="개인 Firefish 인스턴스, 월드콘"
+                link="https://worldc.one/"
+                thumbnail="./images/worldcone_thumbnail.png">
+            </post-link>
+
+            <post-link
+                title="월드콘 위키"
+                description="라즈베리파이 3B 홈 서버에서 openNAMU로 운영되는 개인 위키 겸 자유 주제 위키"
+                link="https://wiki.worldc.one/"
+                thumbnail="./images/wiki_thumbnail.png">
+            </post-link>
+        </div>
+    </div>
+
+    <script src="./script/web_components.js"></script>
+</body>
+</html>
